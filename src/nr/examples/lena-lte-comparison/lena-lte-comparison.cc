@@ -33,6 +33,7 @@
 
 /*
  * 通过这一行，我们将能够通过启用组件“LenaLteComparison”来查看文件的日志，方式如下：
+ *
  * $ export NS_LOG="LenaLteComparison=level_info|prefix_func|prefix_time"
  */
 NS_LOG_COMPONENT_DEFINE("LenaLteComparison");
